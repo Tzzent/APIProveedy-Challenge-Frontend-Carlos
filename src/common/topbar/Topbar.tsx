@@ -1,0 +1,45 @@
+export default function Topbar() {
+  return (
+    <nav
+      className="
+      bg-indigo-950
+      flex
+      p-5
+      justify-between
+      text-white
+      mb-10
+      "
+    >
+      <ul
+        className="
+        flex
+        gap-5
+        "
+      >
+        <li>
+          Features
+        </li>
+        <li>
+          Features
+        </li>
+        <li>
+          Features
+        </li>
+        <li>
+          Features
+        </li>
+        <li>
+          Features
+        </li>
+      </ul>
+      <ul
+        className="
+        flex
+        gap-5
+        "
+      >
+        <p>Hecho por <strong>Carlos Ramirez Salazar</strong> | @Tzzent</p>
+      </ul>
+    </nav>
+  )
+}
